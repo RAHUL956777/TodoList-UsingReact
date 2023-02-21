@@ -1,3 +1,7 @@
+####### At first create a folder in your pc or laptop... then rightclick and open your code editor...then run... npm install or npm i--- to install nodemodules
+
+Then clone this repository in your local system
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
