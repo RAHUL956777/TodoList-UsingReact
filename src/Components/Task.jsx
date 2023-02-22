@@ -1,16 +1,21 @@
-import React from 'react'
+import React from "react";
 
-const Task = () => {
+const Task = ({ title, description, deleteTask, index }) => {
   return (
-    <div className='task'>
-
-        <div>
-            <p>Title</p>
-            <span>Discription</span>
-        </div>
-        <button>-</button>
+    <div className="task">
+      <div>
+        <p>{title}</p>
+        <span>{description}</span>
+      </div>
+      <button
+        onClick={() => {
+          deleteTask(index);
+        }}
+      >
+        -
+      </button>
     </div>
-  )
-}
+  );
+};
 
-export default Task
+export default Task;
